@@ -13,7 +13,7 @@ This project is designed for developers who want a structured approach to creati
 
 ### Prerequisites
 
-- Python 3.13 or higher
+- Python 3.8 or higher
 - `discord.py` library
 
 Install dependencies with:
