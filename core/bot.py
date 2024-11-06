@@ -1,7 +1,7 @@
 import discord
 import os
 from discord.ext import commands
-from settings.config import TOKEN, OWNER, PREFIX
+from settings.config import OWNER, PREFIX
 
 class Bot(commands.Shard):
     def __init__(self):
@@ -21,6 +21,3 @@ class Bot(commands.Shard):
                 except Exception as e:
                     print(f'Failed to load {filename}: {e}')
         await self.tree.sync()
-
-client = Bot()
-client.run(TOKEN)
