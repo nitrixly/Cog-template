@@ -1,5 +1,5 @@
 
-### Cog template
+### Discordpy Template
 
 This project is designed for developers who want a structured approach to creating and managing a Discord bot. With cogs for organizing commands and a central configuration file, this bot template helps maintain clean, modular code for faster development.
 
