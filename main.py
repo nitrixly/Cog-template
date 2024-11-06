@@ -1,4 +1,4 @@
-from core.bot import Bot
+from core.bot import Aether
 from settings.config import TOKEN
 
 client = Bot()
