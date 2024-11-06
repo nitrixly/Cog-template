@@ -1,3 +1,0 @@
-TOKEN = ""
-OWNER = []
-PREFIX = ""
