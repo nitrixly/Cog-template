@@ -1,4 +1,0 @@
-discord
-discord.py
-jishaku
-requests
