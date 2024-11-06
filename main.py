@@ -3,7 +3,7 @@ import os
 from discord.ext import commands
 from core.config import TOKEN, OWNER, PREFIX
 
-class CogModule(commands.AutoShardedBot):
+class Bot(commands.Shard):
     def __init__(self):
         super().__init__(command_prefix=PREFIX, intents=discord.Intents.all(), shard_count=1)
         self.owner_ids = OWNER
@@ -22,5 +22,5 @@ class CogModule(commands.AutoShardedBot):
                     print(f'Failed to load {filename}: {e}')
         await self.tree.sync()
 
-client = CogModule()
+client = Bot()
 client.run(TOKEN)
