@@ -18,4 +18,5 @@ This project is designed for developers who want a structured approach to creati
 
 Install dependencies with:
 ```bash
-pip install -r requirement.txt
+poetry install
+```
